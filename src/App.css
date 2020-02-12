@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.column-1 {
+    width: 15%;
+    margin-left: 250px;
+    margin-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.column-2 {
+    margin-left:200px;
+    margin-top: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search-bar {
+    background-color: #000;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar .search {
+    padding: 10px;
+    background-color: rgb(64,68,72);
+    border: none;
+    width: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar .github-icon {
+    margin-right: 50px;
+}
+
+.user-img {
+    width: 100%;
+    border-radius: 5px 5px;
+    border: 1px solid #E1E4E8;
+}
+
+.name {
+    margin-top: 3.5%;
+    font-size: 28px;
+}
+
+.username {
+    margin-top: 0.5%;
+    font-size: 18px;
+}
+
+.bio {
+    margin-top: 2.3%;
+    font-size: 15px;
+}
+.localization {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.3%;
+}
+
+.local {
+    margin-top: 10px;
+}
+
+.repo-title {
+   border-bottom: 1px solid #E1E4E8;
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.find-repo {
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
 }

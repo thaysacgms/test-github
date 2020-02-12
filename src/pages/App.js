@@ -1,15 +1,16 @@
 import React from 'react';
-import '../App.css';
+import './App.css';
 import user from '../assets/eu.png';
 import local from '../assets/local.svg';
 import github from '../assets/github.png';
+import Repository from '../components/Repository';
 
 function App() {
   return (
     <div className="App">
       <div className="search-bar">
         <img className="github-icon" src={github}/>
-        <input className="search" type="text" placeholder="Search or jump to..." />
+        <input className="search" type="text" placeholder="Search or jump to..."/>
       </div>
       <div className="wrapper">
       <div className="column-1">
@@ -26,6 +27,7 @@ function App() {
       <div className="repos">
         <p className="repo-title">Repositories</p>
         <input className="find-repo" type="text" placeholder="Find a repository..."/>
+        <Repository/>
       </div>
       </div>
       </div>

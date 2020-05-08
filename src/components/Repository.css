@@ -1,0 +1,29 @@
+.repository {
+    margin-top: 3rem;
+    width: 25rem;
+}
+
+.line {
+    opacity: .2;
+    width: 90%;
+    margin-top: 3rem;
+}
+
+a {
+    color: #0366DD;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.language {
+    font-size: 0.8em;
+    margin-top: 0.5rem;
+}

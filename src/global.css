@@ -6,6 +6,6 @@
 }
 
 body {
-    font: 14px "Segoe UI", Helvetica, sans-serif;
+    font: 1rem "Segoe UI", Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased !important; /* deixa a fonte suave */
 }

@@ -1,0 +1,60 @@
+.profile-wrapper {
+    margin-top: 4.5rem;
+    width: 25rem;
+}
+
+.user-img {
+    width: 15rem;
+    border-radius: 5px 5px;
+}
+
+.name {
+    margin-top: 3.5%;
+    font-size: 28px;
+}
+
+.username {
+    /* width: 50%; */
+    margin-top: 0.5%;
+    font-size: 18px;
+}
+
+.bio {
+    padding-top: 2.3%;
+    font-size: 15px;
+    margin: 0;
+}
+
+.localization {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.3%;
+}
+
+.local {
+    margin-top: 10px;
+}
+
+.repo {
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.repo-title {
+    border-bottom: 1px solid #E1E4E8;
+    padding-bottom: 0.5%;
+ }
+
+.find-repo {
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #E1E4E8;
+    border-radius: 5px;
+    color: #000;
+    box-shadow:inset 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+.find-repo::placeholder {
+    color: #CACED1;
+}

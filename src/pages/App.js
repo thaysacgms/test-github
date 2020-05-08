@@ -4,6 +4,7 @@ import github from '../assets/github.png';
 import api from '../services/api';
 import Profile from '../components/Profile';
 import Repository from '../components/Repository';
+require('dotenv').config();
 
 class App extends Component {
 
@@ -13,8 +14,8 @@ class App extends Component {
     this.state = {
 
       github: {
-        client_id: 'f593d684f70a31d3acc1',
-        client_secret: '551c39e0aa279f6d5244a4a50834b5cfd21ce8ed',
+        client_id: process.env.REACT_APP_CLIENT_ID,
+        client_secret: process.env.REACT_APP_CLIENT_SECRET,
       },
 
       user: [],
@@ -59,7 +60,7 @@ class App extends Component {
   }
 
   render() {
-
+  
     // console.log(this.state.user);
     // const {user} = this.state; //desestrutura o estado
     // const {repos} = this.state;
